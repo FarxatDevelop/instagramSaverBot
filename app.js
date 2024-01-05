@@ -12,6 +12,7 @@ const { Users } = require("./action/start");
 bot.command("statistika", (msg) => {
   msg.reply(`Jami paydalanıwshılar sani: ${Users.length}`);
 });
+// instagramSaverBot
 
 // Events
 bot.on(message("text"), (msg) => {
