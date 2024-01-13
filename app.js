@@ -8,6 +8,17 @@ module.exports = { bot };
 require("./action/start");
 const { Users } = require("./action/start");
 
+// Set My Command
+bot.telegram.setMyCommands([
+  {
+    command: "start",
+    description: "Baslaw",
+  },
+  {
+    command: "statistika",
+    description: "Bot statistikasın biliw",
+  },
+]);
 // Command
 bot.command("statistika", (msg) => {
   msg.reply(`Jami paydalanıwshılar sani: ${Users.length}`);
