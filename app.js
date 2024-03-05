@@ -21,7 +21,7 @@ bot.telegram.setMyCommands([
 ]);
 // Command
 bot.command("statistika", (msg) => {
-  msg.reply(`Jami paydalanıwshılar sani: ${Users.length}`);
+  msg.reply(`Jami paydalanıwshılar sani: ${Users.length} boldi`);
 });
 // instagramSaverBot
 
